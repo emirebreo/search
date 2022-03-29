@@ -1,0 +1,221 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: #3c4043;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+	position: absolute;
+    top:  40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.inwrapper {
+    text-align: center;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    max-width: 584px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=text]:hover {
+    box-shadow: 0px 0px 5px 3px rgba(209, 209, 209, 0.2), 0 0px 5px 0 rgba(138, 138, 138, 0.19);
+}
+
+input:focus{
+    outline: none;
+}
+
+/* revisar para lo de las imágenes
+.input-container {
+    display: flex;
+    width: 250px;
+    border: 1px solid #a9a9a9;
+    justify-content: space-between;
+}
+.input-container input:focus, .input-container input:active {
+    outline: none;
+}
+.input-container input {
+    border: none;
+}
+fin de lo de las imágenes */
+
+
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text].advinput {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    resize: vertical;
+    background-image: none;
+    height: 25px;
+    max-width: unset;
+}
+
+input[type=text].advinput:hover {
+    box-shadow: unset;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+input[type=submit].advsubmit {
+    background-color: #4d90fe;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+input[type=submit].advsubmit:hover {
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+}
+
+.col-14 {
+    float: left;
+    width: 14%;
+    margin-top: 6px;
+}
+
+.col-42 {
+    float: left;
+    width: 42%;
+    margin-top: 6px;
+}
+
+.col-44 {
+    float: left;
+    width: 44%;
+    margin-top: 6px;
+    height: 30px;
+    color: #777;
+    font-size: 11px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.col-10 {
+    float: left;
+    width: 10%;
+    margin-top: 6px;
+}
+
+.col-80 {
+    float: left;
+    width: 80%;
+    margin-top: 70px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col-14, .col-42, .col-44, .col-80, .col-10 input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+}
+
+.instructions {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.title {
+    color:#d93025;
+    font-size:20px;
+}
+
+.bordered {
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.margined {
+    margin: 40px 0px 0px 40px
+}
+
+.marginleft {
+    margin-left: 40px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="styles.css" rel="stylesheet">
+        <link href="favicon.png" rel="icon">
+        <title>Google Advanced Search</title>
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+            </ul>
+        </div>
+        <div class="marginleft">
+            <p class="title">Advanced Search</p>
+        </div>
+        <div class="bordered"></div>
+        <div class="margined">
+            <form action="https://google.com/search">
+                <div class="row">
+                    <div class="col-14">Find pages with...</div>
+                    <div class="col-42"></div>
+                    <div class="col-44 instructions">Haz lo siguiente en el cuadro de búsqueda</div>
+                </div>
+                <div class="row">
+                    <div class="col-14">
+                        <label for="fname">all of these words:</label>
+                    </div>
+                    <div class="col-42">
+                        <input type="text" name="as_q" class="advinput" autocomplete="off">
+                    </div>
+                    <div class="col-44">Escribe las palabras importantes: <code>terrier ratonero tricolor</code></div>
+                </div>
+                <div class="row">
+                    <div class="col-14">
+                        <label for="lname">this exact word or phrase:</label>
+                    </div>
+                    <div class="col-42">
+                        <input type="text" name="as_epq" class="advinput" autocomplete="off">
+                    </div>
+                    <div class="col-44">Escribe las palabras exactas entre comillas: <code>"terrier ratonero"</code></div>
+                </div>
+                <div class="row">
+                    <div class="col-14">
+                        <label for="lname">any of these words:</label>
+                    </div>
+                    <div class="col-42">
+                        <input type="text" name="as_oq" class="advinput" autocomplete="off">
+                    </div>
+                    <div class="col-44">Escribe <code>OR</code> entre todas las palabras que quieras: <code>miniatura OR estándar</code></div>
+                </div>
+                <div class="row">
+                    <div class="col-14">
+                        <label for="lname">none of these words:</label>
+                    </div>
+                    <div class="col-42">
+                        <input type="text" name="as_eq" class="advinput" autocomplete="off">
+                    </div>
+                    <div class="col-44">Añade un signo menos delante de las palabras que no quieras que aparezcan: <code>-roedor, -"Jack Russell"</code></div>
+                </div>
+                <div class="row">
+                    <div class="col-14"></div>
+                    <div class="col-42">
+                        <input type="submit" value="Advanced Search" class="advsubmit">
+                    </div>
+                    <div class="col-44"></div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
